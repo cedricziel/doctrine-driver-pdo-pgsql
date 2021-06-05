@@ -24,7 +24,7 @@ configuration file:
 ```yaml
 doctrine:
     dbal:
-        driver_class: App\Doctrine\PgSQLSocketDriver
+        driver_class: CedricZiel\DoctrineDriverDbalPDOPgSQL\PgSQLSocketDriver
 ```
 
 *NOTE:* To enable the driver manager, to select your driver, the DSN supplied via `DATABASE_URL` *must* be schamless.
