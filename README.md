@@ -10,6 +10,12 @@ When you want to configure the Doctrine DBAL via DSN, you cannot use the
 This is mandatory for services like Google CloudSQL, which primarily relies
 on socket connections.
 
+## Installation
+
+```
+composer require cedricziel/doctrine-driver-pdo-pgsql
+```
+
 ## Usage
 
 To use this driver with Symfony, you can add the following to your `doctrine.yaml`
